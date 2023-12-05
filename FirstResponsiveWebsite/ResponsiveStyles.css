@@ -1,0 +1,386 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E1E1E1;
+    
+   
+}
+.nav-container{
+  /* display:block; */
+  background-color: #c7c3c3;
+  position:fixed ;
+  width :100%;
+}
+.main-img{
+  padding-top: 100px;
+
+}
+.about{
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+    list-style-type:none ;
+    position: relative;
+    max-width: 80%;
+   
+    
+}
+.switch-logo{
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bolder;
+   
+
+}
+h1{
+    font-size: x-large;
+    color: #000;
+
+}
+/* .add-logo{
+  display: flex;
+} */
+
+.plus-logo{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  position: absolute;
+  padding: 5px;
+  top: 13px;
+  right: 60px;
+  
+
+}
+.info-logo{
+
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    position: absolute;
+    padding: 5px;
+    top: 11px;
+    right: 20px;
+   
+}
+.main-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.airpods-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.battry-level{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(46, 46, 46, 0.204);
+    border-radius: 15px;
+    padding: 25px;
+    width: 350px;
+    height: 40px;
+    gap :50%;
+
+}
+.left-battry{
+    padding: 0;
+
+}
+.right-battry{
+    padding: 0;
+}
+
+
+
+/* noise control */
+
+
+.noise-control-pannel{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:80%;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: auto ;
+  margin-top: 15px;
+}
+
+
+
+
+.noise-control-icons{
+  display: flex;
+  max-width: 60%;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* justify-content: center; */
+  text-align: center;
+  gap: 30px;
+  
+}
+.noise-icon img{
+
+  height: 50px;
+  width: 60px;
+
+}
+h3{
+  font-size: small;
+}
+
+.noise-control-bar{
+  text-align: center;
+  max-width: 90%;
+
+}
+.noise-control-bar img{
+  max-width: 80%;
+}
+
+/* Eqaluser */
+
+.equaliser-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:80%;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: auto ;
+  margin-top: 15px;
+}
+.sound-equaliser{
+  max-width: 90%;
+}
+.equaliser-box,.sound-equaliser a{
+  color: #000;
+}
+.sound-equaliser h2{
+  margin-bottom: 0.8px;
+}
+.oneplus-audio-id p{
+  margin-top: 8px;
+}
+.Balanced-default{
+  color: aquamarine;
+  font-size: small;
+}
+.Balanced-default:hover {
+  color: blue;
+  text-decoration: none;
+  font-size: small;
+ 
+}
+/* Zen mode */
+
+.zen-mode-air{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  width:80%;
+  background-color: #fff;
+  border-radius:20px;
+  margin: auto ;
+  margin-top: 15px;
+
+}
+.zen-mode-air h2, .zen-mode-air p {
+  max-width: 60%;
+  margin-left: 5%;
+  margin-top: 5px ;
+  margin-bottom: 10px;
+}
+.zen-mode-air a{
+  color: #000;
+
+}
+.zen-mode-air h2 {
+  margin-bottom: 5px; 
+}
+.zen-mode-air p{
+  margin-top: 2px;
+}
+
+
+/* Connection and fit */
+.connection-fit-contaioner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:80%;
+  background-color: #fff;
+  border-radius:20px;
+  margin: auto ;
+  margin-top: 15px;
+
+}
+
+.connection-fit{
+  width: 90%;
+
+
+}
+.connection-fit a{
+  max-width: 90%;
+  color: #000;
+}
+
+.connection-fit h2 {
+  margin-bottom: 5px; 
+}
+.connection-fit p{
+  margin-top: 2px;
+}
+
+/* firmware */
+
+.firmware{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  width:80%;
+  background-color: #fff;
+  border-radius:20px;
+  margin: auto ;
+  margin-top: 15px;
+  margin-bottom: 100px;
+
+}
+.firmware a{
+  max-width: 90%;
+  color: #000;
+  margin-left: 5%;
+  margin-bottom: 0;
+}
+
+.firmware p{
+  font-size: small;
+  margin-top: 2px;
+
+}
+
+/* footer */
+
+.footer-icons-contaioner{
+  background-color: #686767;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  color: #fff;
+  padding: 10px 0;
+  text-align: center
+  
+}
+.footer-items{
+  display: flex;
+
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+
+}
+.footer-items img{
+  padding:0;
+  margin: 0;
+}
+.footer-items h3{
+  margin: 0;
+}
+
+
+
+
+
+/* my-devices */
+
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+
+.back-to-home{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 30px;
+}
+.back-to-home li{
+  margin-left: 15px;
+}
+.device-list-1-battry-level{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.battry-levels{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  margin-top: 15%;
+}
+
+.device-list-1{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 90%;
+  background-color: #fff;
+  padding: 1%;
+  margin: auto;
+  border-radius: 25px;
+}
+.connection-status span{
+  display: flex;
+  background-color: rgba(35, 175, 235, 0.553);
+  font-size: medium;
+  padding: 0 8px;
+  border-radius:50px;
+  align-items: center;
+  color: rgba(4, 4, 84, 0.658);
+  margin-top: 20%;
+
+}
+.add-new-device{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:flex-end;
+  justify-content: center;
+  height: 70vh;
+  
+}
+
+ .sound-master-eq-container h3{
+  margin-left: 6%;
+  margin-bottom: 1px;
+ }
+
+ .sound-master-equaliser{
+  max-width: 90%;
+  background-color: #fff;
+  padding: 1%;
+  margin: auto;
+  border-radius: 25px;
+}
+ .radio-label{
+  max-width: 70%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: auto;
+}
+

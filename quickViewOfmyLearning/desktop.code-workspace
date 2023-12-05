@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "desktop",
+			"path": ".."
+		},
+		{
+			"name": "quickViewOfmyLearning",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "quickViewOfmyLearning"
+	}
+}

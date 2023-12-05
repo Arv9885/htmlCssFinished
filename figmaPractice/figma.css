@@ -1,0 +1,162 @@
+/* Placeholder */
+
+*{
+    margin: 0;
+    padding:0 ;
+}
+body{
+    margin: 0;
+    overflow: hidden;
+    background-image: url(figmaImg/Header\ .1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+header{
+   background-color:#FFF2F3;
+   text-align: center;
+   padding: 20px;
+}
+header img{
+    position:absolute;
+    max-width: 100%;
+    height: 43rem;
+}
+.image-overlay{
+    position:absolute;
+
+}
+.brandname{
+    
+
+}
+nav{
+    
+
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul{
+    padding: 5px;
+    list-style-type: none;  
+}
+nav li{
+     padding: 3px;
+     display: inline;
+     text-decoration: none;
+}
+.btn-login{
+  margin-left: 3rem;
+  display: ;
+
+    
+}
+.btn-joinus1{
+     margin: 3px;
+
+}
+
+.image-overlay{
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    width: 36rem;
+    height: 24.5rem;
+}
+.image-overlay h1{
+    
+
+    text-align: left;
+    width: 33.875rem fixed;
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem; /* 137.931% */
+    letter-spacing: 0.0125rem;
+    padding-bottom: 1.88rem;
+ 
+
+}
+.image-overlay h2{
+    text-align: left;
+    color: var(--primary-color, #96BB7C);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.00625rem;
+    width: 4.5rem;
+    height: 1.5rem;
+    padding-bottom: 1.8rem;
+}
+
+.image-overlay p{
+    width: 21.5rem ;
+    height: 3.75rem ;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0.0125rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 1.88rem;
+}
+.buttons-bottom1{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1rem;
+}
+.buttons-bottom1 li{
+    display: inline;
+   
+    
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.375rem;
+    letter-spacing: 0.0125rem;
+    
+}
+.btn-joinus2 {
+    background-color:#96BB7C ;
+    color:#FFFFFF ;
+    padding: 0.94rem 2.5rem;
+    border-radius:10px ;
+
+}
+.btn-learnMore{
+    background-color:#FFF2F3 ;
+    color:#96BB7C ;
+    border:0.06rem solid #96BB7C ;
+    padding: 0.94rem 2.5rem;
+    border-radius: 16px;
+
+}
+.btn-login{
+     color: #96BB7C;
+     padding: 0.94rem 2.5rem;
+     border-radius:16px ;
+}
+.btn-joinus1{
+    background-color: #96BB7C;
+    border-radius: 5px;
+    padding: 0.94rem 2.5rem;
+    border-radius:16px ;
+
+}
+.btn-joinus2::after{
+    content:' →';
+}
+
+
+
+
