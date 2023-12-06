@@ -1,2 +1,3 @@
 
-Start from  "quickViewOfmyLearning" folder and navigate through my learning and levels.
+Start from  "quickViewOfmyLearning" folder and navigate through my learning and levels...
+Click on each card to view the beginner and the intermediate levels ..
